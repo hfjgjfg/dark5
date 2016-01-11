@@ -495,7 +495,7 @@ local function run(msg, matches)
       local rules = 'Welcome to "' .. string.gsub(msg.to.print_name, '_', ' ') ..'" this group has rules that you should follow:\n'..rules
       
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] deleted user  "..msg.action.user.id)
-      send_large_msg(receiver, rules)
+   -- send_large_msg(receiver, rules)
     end
     if matches[1] == 'chat_del_user' then
       if not msg.service then
