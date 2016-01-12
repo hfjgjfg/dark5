@@ -212,7 +212,6 @@ function create_config( )
     "banhammer",
     "stats",
     "antispam",
-    "antilink",
     "owners",
     "arabic_lock",
     "set",
@@ -222,7 +221,6 @@ function create_config( )
     "autoleave",
     "salam",
     "fosh",
-    "block",
     "wiki",
     "echo",
     "feedback",
@@ -233,7 +231,7 @@ function create_config( )
     realm = {90312082},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-    TeleDark Anti Spam Bot v2.1
+    TeleDark Anti Spam Bot v3.0
 
   📢 Channel : @TeleDarkCh
   👤 Admin : @AmirDark
@@ -243,7 +241,7 @@ function create_config( )
         @mehrab_wj
         @PokerFace_Dev
   
-  Checkout yon.ir/yNk0
+  Checkout yon.ir/Ng0W
 ]],
     help_text = [[
     
