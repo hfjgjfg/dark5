@@ -22,7 +22,7 @@ function on_msg_receive (msg)
     if msg then
       match_plugins(msg)
       status_online(receiver, ok_cb, true)
-  --  mark_read(receiver, ok_cb, true)
+ --     mark_read(receiver, ok_cb, true)
     end
   end
 end
@@ -212,6 +212,8 @@ function create_config( )
     "banhammer",
     "stats",
     "antispam",
+    "anti_link",
+    "seed_antispam",
     "owners",
     "arabic_lock",
     "set",
