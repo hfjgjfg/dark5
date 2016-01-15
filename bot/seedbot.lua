@@ -228,6 +228,8 @@ function create_config( )
     "qr",
     "tex",
     "sudo",
+    "calc",
+    "help",
     "all"
     },
     sudo_users = {119626024,0,tonumber(our_id)},--Sudo users
