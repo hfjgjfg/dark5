@@ -229,7 +229,7 @@ function create_config( )
     "tex",
     "sudo",
     "calc",
-    "spam",
+    "tosupport",
     "help",
     "all"
     },
