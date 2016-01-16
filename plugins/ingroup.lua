@@ -106,12 +106,12 @@ local function show_group_settingsmod(msg, data, target)
         	NUM_MSG_MAX = 5
       	end
     end
-    local bots_protection = "Yes"
+    local bots_protection = "yes"
     if data[tostring(msg.to.id)]['settings']['lock_bots'] then
     	bots_protection = data[tostring(msg.to.id)]['settings']['lock_bots']
    	end
   local settings = data[tostring(target)]['settings']
-   local text = "📊 Group settings :\n🔖 Lock group name : "..settings.lock_name.."\n🌄 Lock group photo : "..settings.lock_photo.."\n👥 Lock group member : "..settings.lock_member.."\n🔢 Flood sensitivity : "..NUM_MSG_MAX.."\n🤖 Bot protection : "..bots_protection
+   local text = "⚙ Group settings :\n✏️ Lock group name : "..settings.lock_name.."\n🌄 Lock group photo : "..settings.lock_photo.."\n👥 Lock group member : "..settings.lock_member.."\n🔢 Flood sensitivity : "..NUM_MSG_MAX.."\n🤖 Bot protection : "..bots_protection
   return text
 end
 
