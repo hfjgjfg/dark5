@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return " The Invition Link for TeleDark support is : \n https://telegram.me/joinchat/ClGL-QOZQ4Tb6gz1-VJ7dA"
+  return " The Invition Link for \n TeleDark support is : \n https://telegram.me/joinchat/ClGL-QOZQ4Tb6gz1-VJ7dA"
   end
 return {
   description = "shows support link", 
