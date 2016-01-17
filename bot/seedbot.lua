@@ -230,6 +230,7 @@ function create_config( )
     "sudo",
     "calc",
     "tosupport",
+    "block",
     "help",
     "all"
     },
