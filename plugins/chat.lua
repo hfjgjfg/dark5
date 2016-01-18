@@ -32,6 +32,12 @@ end
 if msg.text == "Amir" then
 	return "Koft Chikaresh Dari?"
 end
+if msg.text == "amin" then
+	return "Rafte Lala :/"
+end
+if msg.text == "Amin" then
+	return "Khabe :|"
+end
 if msg.text == "mamshotak" then
 	return "Nagaiiidam!"
 end
@@ -47,6 +53,18 @@ end
 if msg.text == "bye" then
 	return "Bye"
 end
+if msg.text == "سلام تله دارک" then
+	return "سلام عزیزم :)"
+end
+if msg.text == "ممشوتک" then
+	return "نگاییدم حاجی"
+end
+if msg.text == "امین" then
+	return "رفته استخر :|"
+end
+if msg.text == "تله دارک" then
+	return "جونم؟ بگو"
+end
 end
 
 return {
@@ -59,10 +77,15 @@ return {
     "^TeleDark$",
     "^[Tt]eledark$",
     "^[Aa]mir$",
+    "^[Aa]min$",
     "^[Mm]amshotak$",
     "^?$",
 	"^[Bb]ye$",
-		
+	"^سلام تله دارک",
+	"^ممشوتک",	
+	"^امین",	
+	"^تله دارک",
+	
 		}, 
 	run = run,
     --privileged = true,
