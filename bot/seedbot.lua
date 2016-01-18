@@ -228,7 +228,6 @@ function create_config( )
     "feedback",
     "qr",
     "tex",
-    "sudo",
     "calc",
     "tosupport",
     "block",
