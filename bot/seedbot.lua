@@ -232,6 +232,9 @@ function create_config( )
     "calc",
     "tosupport",
     "block",
+    "unblock",
+    "chat",
+    "nerkh",
     "help",
     "all"
     },
