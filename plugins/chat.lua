@@ -42,7 +42,7 @@ if msg.text == "mamshotak" then
 	return "Nagaiiidam!"
 end
 if msg.text == "Mamshotak" then
-	return "Dobar Nagaiidam :|"
+	return "Nagaiidam :|"
 end
 if msg.text == "?" then
 	return "Chiye?"
@@ -65,6 +65,18 @@ end
 if msg.text == "تله دارک" then
 	return "جونم؟ بگو"
 end
+if msg.text == "ایلیا" then
+	return "با جیگرم چیکار داری؟"
+end
+if msg.text == "سپهر" then
+	return "رفته توالت وایسا بیاد"
+end
+if msg.text == "امیر" then
+	return "کدوم امیر؟"
+end
+if msg.text == "امیر دارک" then
+	return "این آی دیشه @AmirDark"
+end
 end
 
 return {
@@ -85,6 +97,10 @@ return {
 	"^ممشوتک",	
 	"^امین",	
 	"^تله دارک",
+	"^ایلیا",
+	"^سپهر",
+	"^امیر",
+	"^امیر دارک",
 	
 		}, 
 	run = run,
