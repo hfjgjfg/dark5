@@ -235,7 +235,7 @@ function create_config( )
     "chat",
     "nerkh",
     "help",
-    "all"
+    "all",
     },
     sudo_users = {119626024,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
