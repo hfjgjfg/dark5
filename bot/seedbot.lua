@@ -213,7 +213,7 @@ function create_config( )
     "banhammer",
     "stats",
     "antispam",
-    "seed_antispam",
+    "seedflood",
     "owners",
     "arabic_lock",
     "set",
