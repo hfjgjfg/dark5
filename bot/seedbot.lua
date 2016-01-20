@@ -212,7 +212,7 @@ function create_config( )
     "inpm",
     "banhammer",
     "stats",
-    "antispam",
+    "anti_spam",
     "seedflood",
     "owners",
     "arabic_lock",
