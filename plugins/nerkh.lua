@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return "بدلیل نداشتن سرور تضمینی فعلا ساخت گپ مسدود میباشد جهت مشارکت در ساخت به ایدی زیر مراجعه کنید@mohammad20162015
+  return "بدلیل نداشتن سرور تضمینی فعلا ساخت گپ مسدود میباشد جهت مشارکت در ساخت به ایدی زیر مراجعه کنید@mohammad20162015"
 end
 return {
   description = "Nerkh Sakht Group", 
@@ -15,7 +15,8 @@ return {
    "^!Nerkh$",
    "^Nerkh$",
    "^نرخ$",
-
+   "^n$",
+   
   },
   run = run
 }
